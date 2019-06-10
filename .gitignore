@@ -50,3 +50,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+node_modules
+*.lock
+__pycache__
+venv
+.venv
+.env
+VENV
+*.pyc
+
