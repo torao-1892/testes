@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      p::before {
+        content: "* ";
+      }
+
+      span.comment::before {
+        content: "Comment: ";
+        color: blue;
+      }
+
+      .buzz::after {
+        content: " - Buzz Lightyear";
+        color: blue;
+      }
+
+      .yoda::after {
+        content: " - Yoda";
+        color: green;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <p>To infinity, and beyond!</p>
+    <p>I am Buzz Lightyear. I come in peace.</p>
+
+    <span class="comment">May the force be with you.</span>
+    <br />
+    <span> Do. Or do not. There is no try.</span>
+    <p class="buzz">To infinity, and beyond!</p>
+    <p class="yoda">Do. Or do not. There is no try.</p>
+  </body>
+</html>
